@@ -9,15 +9,18 @@
     <title>Digital resume</title>
 </head>
 <body>
-    <div id="big_wrapper">
-    <header id="top_header">
+    <div>
+
+<header id="top_header">
     <img src="./digital-images/self123.jpg" height="400" width="300"/>
  <h1>Molagare Modiba</h1>
  <h4>An introductory personal statement</h4>
     </header>
 
 <nav id="top_menu">
-    <ul> <li> <h2><a class=nav-link href="#educ">Education</a></h2> </li>
+
+    <ul> 
+        <li> <h2><a class=nav-link href="#educ">Education</a></h2> </li>
         <li> <h2><a class=nav-link href="#expi">Experience</a></h2> </li>
         <li> <h2><a class=nav-link href="#skil">Skills</a></h2> </li>
         <li> <h2><a class=nav-link href="#cont">Contact</a><h2> </li>
@@ -72,7 +75,52 @@ ratione officia, placeat non unde a architecto quaerat mollitia.<br>
    </section>
  
    <aside id="side_form">
-    <h4>form</h4>
+    <h4>contact me form</h4>
+    <form action="https://formsubmit.co/molagare@gmail.com" method="POST">
+<table>
+    <tr>
+        <td>
+            Full Name:
+        </td>
+        <td>
+            <input type="text" name="full name" placeholder="Required" maxlength="12"/>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Email address:
+        </td>
+        <td>
+            <input type="email" placeholder="Required"/>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Email subjects
+        </td>
+        <td>
+            <select>
+                <option>Received</option>
+                <option>Declined</option>
+            </select>
+            </td>
+    </tr>
+    <tr>
+        <td>
+            Message:
+        </td>
+        <td>
+    <textarea name="message" id="text" rows="8" cols="20" placeholder="Optional"></textarea> 
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <input type="submit" value="submit">  
+        </td>
+    </tr>
+    
+</table>
+</form>
    </aside>
  
    <footer id="the_footer">
