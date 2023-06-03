@@ -64,27 +64,32 @@ padding-bottom: 0.5em;
 }
 
 button{
-background-color: rgb(199, 115, 85);
-padding: 1em;
+padding: 1.5em;
 width:18%;
-border-radius: 10%;
+border-radius: 8%;
 border: none;
 text-decoration: none;
 color: rgb(49, 49, 165);
 font-weight: bold;
+display: block;
 margin: 0.5em;
 }
 
 #the_footer{
     background-color: rgba(160, 126, 133, 0.699);
-    border-top: 2px solid rgba(160, 126, 133, 0.699);
+    border-top: 0.8em solid rgba(160, 126, 133, 0.699);
     margin-top: 0;
+}
+
+#contact{
+    list-style-type: none;
 }
 
 #form{
     display: flex;
-    flex:1;
+    flex:0.5;
     justify-content: right;
+    margin-right: 2em;
 }
 
 @media screen and (max-width:700px){

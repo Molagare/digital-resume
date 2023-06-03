@@ -1,6 +1,4 @@
 # digital-resume
-Project can be downloaded at 
-
 Name Of Project
 MOLMOD165_FTO2304_GroupB_MOLAGAREMODIBA_ITW
 
